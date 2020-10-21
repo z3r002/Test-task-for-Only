@@ -1,27 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-body div {
-    height: 30vh;
-    width: 49%;
-    color: aliceblue;
-    display: inline-block;
-    padding-bottom: 15px;
-
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 10%;
 }
 
 #block1 {
     background-color: red;
-    float: left;
-    margin-right: 1%;
-
+    margin-right: 20px;
 }
 
 #block2 {
     background-color: forestgreen;
-    float: right;
+    margin-left: 20px;
 }
 
 #resume {
@@ -31,11 +23,13 @@ body div {
 
 #magicButton {
     outline: none;
+    grid-column: 1 / 4;
+    width: 200px;
+    justify-content: center;
     text-decoration: none;
-    display: inline-block;
     color: white;
     padding: 20px 30px;
-    margin: 10px 20px;
+    margin: 10px auto;
     border-radius: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
