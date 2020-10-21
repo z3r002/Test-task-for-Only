@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body div {
+    height: 30vh;
+    width: 49%;
+    color: aliceblue;
+    display: inline-block;
+    padding-bottom: 15px;
+
+}
+
+#block1 {
+    background-color: red;
+    float: left;
+    margin-right: 1%;
+
+}
+
+#block2 {
+    background-color: forestgreen;
+    float: right;
+}
+
+#resume {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#magicButton {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+#magicButton:hover {
+    background-position: right center;
+}
