@@ -30,6 +30,7 @@ body div {
 }
 
 #magicButton {
+    outline: none;
     text-decoration: none;
     display: inline-block;
     color: white;
